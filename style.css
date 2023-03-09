@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#aboutText{
+ margin-left: 10%;
+}
+
+/* .heroContainer{
+    height:30%;
+    width:100%;
+    z-index: -1;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+
+.container{
+width:100%;
+height:70vh;
+background:rgb(208, 67, 123);
+display:flex;
+align-items:center;
+overflow: hidden;
+justify-content:center;
+}
+
+.swiper{
+    width:80%;
+    height:fit-content;
+    
+}
+.swiper-slide img{
+    height:60%;
+    width:50%; 
+    margin-left:24%;
+    margin-top:5%;
+    
+}
+
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+ color:white;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background: white;
+}
+
+.heroText{
+    margin-top:10px;
+}
+
+/* #heroImage{
+    width:40%;
+    height:40%;
+    align-self: center;
+} */
+
+ /*Flex*/
+.moments_flex_row_two,
+.moments_flex_row_one{
+    width:100%;
+    display:flex;
+    gap:10px;
+}
+.moment_1_image,
+.moment_2_image,
+.moment_3_image,
+.moment_4_image{
+    width:100%;
+    height:95%;
+    border-radius: 4px;
+    
+}
+
+.moment_1,
+.moment_4{
+    width:100%;
+    height:150px;
+
+}
+
+.moment_2,
+.moment_3{
+    width: 120%;
+    height: 200px;
+}
+.moments_flex_row_one{
+    align-items:baseline;
+    margin-bottom: 1px;
+}
+
+.about{
+    margin-top:2%;
+    margin-right: 8%;
+    margin-left: 8%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+}
+
+.songs{
+    margin: 0 10%;
+}
+

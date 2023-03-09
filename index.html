@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lata_Ji_TributePage</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Kanit:wght@300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Tilt+Neon&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="heroText">
+    <h1 align="center">LATA MANGESHKAR (1929-2022)</h1>
+    <h3 align="center">Nightingale of Bollywood</h3>
+    <h3 align="center">Queen of Melody</h3>
+   </div>
+    
+      <div class="container">
+        <!-- Slider main container -->
+      <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="assets/lata_ji_heroPic.jpeg" alt=""></div> 
+       <div class="swiper-slide"><img src="assets/lataJiSinging.jpg" alt=""></div> 
+       <div class="swiper-slide"><img src="assets/latajiPic.avif" alt=""></div> 
+       <div class="swiper-slide"><img src="assets/latajiRead.webp" alt=""></div>
+      
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+      </div>
+     
+    </div>
+
+         
+       <div>
+        <br>
+        <h1 id="aboutText">About</h1>
+       </div>
+        <div class="about">  
+        <p>Born in Maharashtra on September 28,1929<br>
+
+        Started out singing at religious gatherings with her father<br>
+    
+        Recorded her first song for a Bollywood film in 1942-she was 13,<br>
+    
+        Over a 73-year career,she recorded 27,000 songs for Bollywood and regional films
+        <br>
+        Worked with many legendary Indian music directors:Madan Mohan,Naushad,
+        <br>SD Burman,RD Burman,Laxmikant-Pyarelal and AR Rahman
+        <br>
+        Won dozens of singing awards
+        <br>
+         Awarded the Bharat Ratna,India's highest civilian honour,in 2001.
+        <br>
+        Legendary singer died at the age of 92.</p>
+       
+        
+       <div class="lifeGrid">
+        <section class="moments_container">
+        <div class="moments_flex">
+            <div class="moments_flex_row_one">
+                <div class="moment_1">
+                <img class="moment_1_image"
+                 src="assets/lataji_award.jpg"
+                 alt="moment_1"
+                 />
+                 </div>
+                 <div class="moment_2">
+                 <img class="moment_2_image"
+                 src="assets/LataJI_SING.webp"
+                 alt="moment_2"
+                 />
+                 </div>
+                </div>
+                <div class="moments_flex_row_two">
+                    <div class="moment_3">
+                    <img class="moment_3_image"
+                    src="assets/latamangeshkar_g.jpg"
+                     alt="moment_3"
+                     />
+                </div>
+                <div class="moment_4">
+                     <img class="moment_4_image"
+                     src="assets/withPM.jpg"
+                     alt="moment_4"
+                     />
+        </div>
+                    </div>
+                  
+        </div>
+        </section>
+       </div>
+       </div>
+       <div class="songs">
+        <h1>Songs by Lata Mangeshkar</h1>
+        <br>
+        <br>
+        <p>
+            Lata Mangeshkar has sung thousands of songs in her illustrious career spanning over several decades. <br>
+            It is difficult to pick just a few, but here are some of her most famous and best songs:
+            <br>
+            <br>
+            1.Aye Mere Watan Ke Logo<br>
+            2.Lag Ja Gale<br>
+            3.Tere Bina Zindagi Se<br>
+            4.Kabhi Kabhie Mere Dil Mein<br>
+            5.Ajeeb Dastan Hai Yeh<br>
+            6.Pyar Kiya To Darna Kya<br>
+            7.Inhi Logon Ne<br>
+            8.Bahon Mein Chale Aao<br>
+            9.Rangeela Re<br>
+            10.O Sajna Barkha Bahar Aayi
+            <br>
+            <br>
+           These are just a few of the many memorable songs that Lataji has given us. <br>
+           Her voice and contribution to the Indian music industry are unmatched, and her songs continue to inspire and entertain people of all ages even today.
+          </p>
+          <br>
+          <br>
+          <hr>
+          <br>
+   <footer align="center">Made by Payal Khatri</footer>
+   <br>
+       </div>
+       <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+       <script>
+        const swiper = new Swiper('.swiper', {
+           /*autoplay:{
+            delay:3000,
+            disableOnInteraction:false,
+          },*/
+          // Optional parameters
+          loop: true,
+        
+          // If we need pagination
+          pagination: {
+            el: '.swiper-pagination',
+            clickable:true,
+          },
+        
+          // Navigation arrows
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        
+        });
+       </script>
+</body>
+</html>
+
